@@ -1,6 +1,8 @@
 require 'httparty'
 
 Song.destroy_all
+User.destroy_all
+User.create!(email:'jordan@example.com', password:'wdiwdiwdi')
 
 artists = [
   "nosaj+thing",
